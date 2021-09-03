@@ -17,7 +17,7 @@ keywords = ["sql", "dataframe", "parser"]
 
 [dependencies]
 anyhow = "1"
-tokio = { version = "1", features = ["rt", "macros"] }
+tokio = { version = "1", features = ["rt", "rt-multi-thread", "macros"] }
 # queryer = { path = "../queryer" }
 queryer = "0.1"
 tracing-subscriber = "0.2"
