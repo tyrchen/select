@@ -10,7 +10,7 @@ description = """
 A command line tool to query data source via SQL query.
 """
 readme = "../README.md"
-categories = ["tools"]
+categories = ["command-line-utilities"]
 keywords = ["sql", "dataframe", "parser"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

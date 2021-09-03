@@ -10,7 +10,6 @@ description = """
 Allow query to data source (CLI output, local file, remote url) via SQL query.
 """
 readme = "../README.md"
-categories = ["tools"]
 keywords = ["sql", "dataframe", "parser"]
 
 [[example]]
