@@ -2,6 +2,16 @@
 name = "queryer"
 version = "0.1.0"
 edition = "2018"
+license = "MIT"
+documentation = "https://docs.rs/queryer/0.1.0/queryer/"
+repository = "https://github.com/tyrchen/select"
+homepage = "https://github.com/tyrchen/select"
+description = """
+Allow query to data source (CLI output, local file, remote url) via SQL query.
+"""
+readme = "../README.md"
+categories = ["tools"]
+keywords = ["sql", "dataframe", "parser"]
 
 [[example]]
 name = "dialect"

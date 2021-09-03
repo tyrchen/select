@@ -2,6 +2,16 @@
 name = "select"
 version = "0.1.0"
 edition = "2018"
+license = "MIT"
+documentation = "https://docs.rs/select/0.1.0/select/"
+repository = "https://github.com/tyrchen/select"
+homepage = "https://github.com/tyrchen/select"
+description = """
+A command line tool to query data source via SQL query.
+"""
+readme = "../README.md"
+categories = ["tools"]
+keywords = ["sql", "dataframe", "parser"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
