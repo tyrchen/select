@@ -1030,6 +1030,22 @@ dependencies = [
 [[package]]
 name = "queryer"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "069e95f627c8ea4a0d8c6b1a554ad5ad18aa1c87a02284e08b400cc6bc4dfa80"
+dependencies = [
+ "anyhow",
+ "async-trait",
+ "polars",
+ "regex",
+ "reqwest",
+ "sqlparser",
+ "tokio",
+ "tracing",
+]
+
+[[package]]
+name = "queryer"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1256,7 +1272,7 @@ name = "select"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "queryer",
+ "queryer 0.1.0",
  "tokio",
  "tracing-subscriber",
 ]
